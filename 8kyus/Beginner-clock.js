@@ -1,15 +1,17 @@
 // INSTRUCTION
-// Introduction
-// The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+// Your task is to write a function which returns the time since midnight in milliseconds.
 
-// Task
-// Given a year, return the century it is in.
+// Example:
+// h = 0
+// m = 1
+// s = 1
 
-// Examples
-// 1705 --> 18
-// 1900 --> 19
-// 1601 --> 17
-// 2000 --> 20
+// result = 61000
+// Input constraints:
+
+// 0 <= h <= 23
+// 0 <= m <= 59
+// 0 <= s <= 59
 
 // SOLUTION
 function past(h, m, s) {
